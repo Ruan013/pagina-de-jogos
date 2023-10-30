@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgb(8, 0, 90), rgb(6, 0, 26));
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin: 0;
+  color: #fff; /* cor do texto */
+  text-shadow: 0 0 5px #1601ff, 0 0 10px #0000fa, 0 0 15px #fff,
+    0 0 20px #0d00ff, 0 0 35px #2b00ff, 0 0 40px #1e00ff, 0 0 50px #3300ff; /* sombras para criar o brilho */
+}
+
+hr {
+    width: 30rem;
+    padding-left: 2rem;
+}
+
+.letreco {
+  height: 15rem;
+  width: 15rem;
+}
+
+.img{
+  text-align: center;
+  padding-top: 2em;
+}
+
+.btn{
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.btn:hover{
+      border: 2px solid #3c00ff; /* cor da borda */
+      box-shadow: 0 0 5px #4000ff, 0 0 10px #1e00ff, 0 0 15px #1100ff, 0 0 20px #2f00ff; /* sombras para criar o brilho */
+      color:#2b00ff
+}
+
+
+
